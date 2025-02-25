@@ -31,15 +31,15 @@ The Employee Management System is a web-based application built using Django tha
 
 
 ```bash
-  employee_management/
-│── employee_app/        # Main Django app for managing employees
+office_emp_proj/
+│── emp_app/             # Main Django app for managing employees
 │   ├── migrations/      # Database migrations
 │   ├── static/          # Static files (CSS, JS, images)
 │   ├── templates/       # HTML templates
 │   ├── views.py         # Business logic for employee management
 │   ├── models.py        # Employee database models
 │   ├── urls.py          # URL routing
-│── employee_management/
+│── office_emp_proj/
 │   ├── settings.py      # Project settings
 │   ├── urls.py          # Main project URL routing
 │── db.sqlite3           # SQLite database (if using default)
